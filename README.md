@@ -53,7 +53,7 @@ public class MyFragment extends BaseFragment {
 		AddView(this.getClass().getName(), mMainFragTop, R.layout.main_frag);
 		  
   //移除：
-    RemoveView(mMainFragTop, "Top");
+    		RemoveView(mMainFragTop, "Top");
   ```
 
   
