@@ -50,10 +50,10 @@ public class MyFragment extends BaseFragment {
 5.在模板布局中增加删除fragment（建议在initView（）或者onClick()方法中进行操作）:
   ```
   //增加：
-		AddView(this.getClass().getName(), mMainFragTop, R.layout.main_frag);
+	AddView(this.getClass().getName(), mMainFragTop, R.layout.main_frag);
 		  
   //移除：
-    		RemoveView(mMainFragTop, "Top");
+    	RemoveView(mMainFragTop, "Top");
   ```
 
   
