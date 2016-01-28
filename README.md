@@ -2,6 +2,7 @@
 OpenFragment (lib And Demo)
 
 ##这个lib目前是可用的，但是可能存在内存泄露的问题（等找到更好的办法以后我再进行修改）
+##PS：一个activity中，相同tag的fragment最多只能添加一个。
 
 使用方法：
 
